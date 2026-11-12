@@ -1,0 +1,1301 @@
+{
+  "scheduling": [
+    {
+      "algo": "FCFS",
+      "gantt": [
+        [
+          "P1",
+          0,
+          8
+        ],
+        [
+          "P2",
+          8,
+          12
+        ],
+        [
+          "P3",
+          12,
+          21
+        ],
+        [
+          "P4",
+          21,
+          26
+        ],
+        [
+          "P5",
+          26,
+          29
+        ]
+      ],
+      "table": [
+        {
+          "pid": "P1",
+          "arrival": 0,
+          "burst": 8,
+          "completion": 8,
+          "turnaround": 8,
+          "waiting": 0,
+          "response": 0
+        },
+        {
+          "pid": "P2",
+          "arrival": 1,
+          "burst": 4,
+          "completion": 12,
+          "turnaround": 11,
+          "waiting": 7,
+          "response": 7
+        },
+        {
+          "pid": "P3",
+          "arrival": 2,
+          "burst": 9,
+          "completion": 21,
+          "turnaround": 19,
+          "waiting": 10,
+          "response": 10
+        },
+        {
+          "pid": "P4",
+          "arrival": 3,
+          "burst": 5,
+          "completion": 26,
+          "turnaround": 23,
+          "waiting": 18,
+          "response": 18
+        },
+        {
+          "pid": "P5",
+          "arrival": 12,
+          "burst": 3,
+          "completion": 29,
+          "turnaround": 17,
+          "waiting": 14,
+          "response": 14
+        }
+      ],
+      "avg": {
+        "turnaround": 15.6,
+        "waiting": 9.8,
+        "response": 9.8
+      },
+      "cpu_util": 100.0,
+      "throughput": 0.172,
+      "context_switches": 4
+    },
+    {
+      "algo": "SJF",
+      "gantt": [
+        [
+          "P1",
+          0,
+          8
+        ],
+        [
+          "P2",
+          8,
+          12
+        ],
+        [
+          "P5",
+          12,
+          15
+        ],
+        [
+          "P4",
+          15,
+          20
+        ],
+        [
+          "P3",
+          20,
+          29
+        ]
+      ],
+      "table": [
+        {
+          "pid": "P1",
+          "arrival": 0,
+          "burst": 8,
+          "completion": 8,
+          "turnaround": 8,
+          "waiting": 0,
+          "response": 0
+        },
+        {
+          "pid": "P2",
+          "arrival": 1,
+          "burst": 4,
+          "completion": 12,
+          "turnaround": 11,
+          "waiting": 7,
+          "response": 7
+        },
+        {
+          "pid": "P3",
+          "arrival": 2,
+          "burst": 9,
+          "completion": 29,
+          "turnaround": 27,
+          "waiting": 18,
+          "response": 18
+        },
+        {
+          "pid": "P4",
+          "arrival": 3,
+          "burst": 5,
+          "completion": 20,
+          "turnaround": 17,
+          "waiting": 12,
+          "response": 12
+        },
+        {
+          "pid": "P5",
+          "arrival": 12,
+          "burst": 3,
+          "completion": 15,
+          "turnaround": 3,
+          "waiting": 0,
+          "response": 0
+        }
+      ],
+      "avg": {
+        "turnaround": 13.2,
+        "waiting": 7.4,
+        "response": 7.4
+      },
+      "cpu_util": 100.0,
+      "throughput": 0.172,
+      "context_switches": 4
+    },
+    {
+      "algo": "SRTF",
+      "gantt": [
+        [
+          "P1",
+          0,
+          1
+        ],
+        [
+          "P2",
+          1,
+          5
+        ],
+        [
+          "P4",
+          5,
+          10
+        ],
+        [
+          "P1",
+          10,
+          12
+        ],
+        [
+          "P5",
+          12,
+          15
+        ],
+        [
+          "P1",
+          15,
+          20
+        ],
+        [
+          "P3",
+          20,
+          29
+        ]
+      ],
+      "table": [
+        {
+          "pid": "P1",
+          "arrival": 0,
+          "burst": 8,
+          "completion": 20,
+          "turnaround": 20,
+          "waiting": 12,
+          "response": 0
+        },
+        {
+          "pid": "P2",
+          "arrival": 1,
+          "burst": 4,
+          "completion": 5,
+          "turnaround": 4,
+          "waiting": 0,
+          "response": 0
+        },
+        {
+          "pid": "P3",
+          "arrival": 2,
+          "burst": 9,
+          "completion": 29,
+          "turnaround": 27,
+          "waiting": 18,
+          "response": 18
+        },
+        {
+          "pid": "P4",
+          "arrival": 3,
+          "burst": 5,
+          "completion": 10,
+          "turnaround": 7,
+          "waiting": 2,
+          "response": 2
+        },
+        {
+          "pid": "P5",
+          "arrival": 12,
+          "burst": 3,
+          "completion": 15,
+          "turnaround": 3,
+          "waiting": 0,
+          "response": 0
+        }
+      ],
+      "avg": {
+        "turnaround": 12.2,
+        "waiting": 6.4,
+        "response": 4.0
+      },
+      "cpu_util": 100.0,
+      "throughput": 0.172,
+      "context_switches": 6
+    },
+    {
+      "algo": "PRIORITY",
+      "gantt": [
+        [
+          "P1",
+          0,
+          8
+        ],
+        [
+          "P2",
+          8,
+          12
+        ],
+        [
+          "P5",
+          12,
+          15
+        ],
+        [
+          "P4",
+          15,
+          20
+        ],
+        [
+          "P3",
+          20,
+          29
+        ]
+      ],
+      "table": [
+        {
+          "pid": "P1",
+          "arrival": 0,
+          "burst": 8,
+          "completion": 8,
+          "turnaround": 8,
+          "waiting": 0,
+          "response": 0
+        },
+        {
+          "pid": "P2",
+          "arrival": 1,
+          "burst": 4,
+          "completion": 12,
+          "turnaround": 11,
+          "waiting": 7,
+          "response": 7
+        },
+        {
+          "pid": "P3",
+          "arrival": 2,
+          "burst": 9,
+          "completion": 29,
+          "turnaround": 27,
+          "waiting": 18,
+          "response": 18
+        },
+        {
+          "pid": "P4",
+          "arrival": 3,
+          "burst": 5,
+          "completion": 20,
+          "turnaround": 17,
+          "waiting": 12,
+          "response": 12
+        },
+        {
+          "pid": "P5",
+          "arrival": 12,
+          "burst": 3,
+          "completion": 15,
+          "turnaround": 3,
+          "waiting": 0,
+          "response": 0
+        }
+      ],
+      "avg": {
+        "turnaround": 13.2,
+        "waiting": 7.4,
+        "response": 7.4
+      },
+      "cpu_util": 100.0,
+      "throughput": 0.172,
+      "context_switches": 4
+    },
+    {
+      "algo": "RR",
+      "gantt": [
+        [
+          "P1",
+          0,
+          2
+        ],
+        [
+          "P2",
+          2,
+          4
+        ],
+        [
+          "P3",
+          4,
+          6
+        ],
+        [
+          "P1",
+          6,
+          8
+        ],
+        [
+          "P4",
+          8,
+          10
+        ],
+        [
+          "P2",
+          10,
+          12
+        ],
+        [
+          "P3",
+          12,
+          14
+        ],
+        [
+          "P1",
+          14,
+          16
+        ],
+        [
+          "P4",
+          16,
+          18
+        ],
+        [
+          "P5",
+          18,
+          20
+        ],
+        [
+          "P3",
+          20,
+          22
+        ],
+        [
+          "P1",
+          22,
+          24
+        ],
+        [
+          "P4",
+          24,
+          25
+        ],
+        [
+          "P5",
+          25,
+          26
+        ],
+        [
+          "P3",
+          26,
+          29
+        ]
+      ],
+      "table": [
+        {
+          "pid": "P1",
+          "arrival": 0,
+          "burst": 8,
+          "completion": 24,
+          "turnaround": 24,
+          "waiting": 16,
+          "response": 0
+        },
+        {
+          "pid": "P2",
+          "arrival": 1,
+          "burst": 4,
+          "completion": 12,
+          "turnaround": 11,
+          "waiting": 7,
+          "response": 1
+        },
+        {
+          "pid": "P3",
+          "arrival": 2,
+          "burst": 9,
+          "completion": 29,
+          "turnaround": 27,
+          "waiting": 18,
+          "response": 2
+        },
+        {
+          "pid": "P4",
+          "arrival": 3,
+          "burst": 5,
+          "completion": 25,
+          "turnaround": 22,
+          "waiting": 17,
+          "response": 5
+        },
+        {
+          "pid": "P5",
+          "arrival": 12,
+          "burst": 3,
+          "completion": 26,
+          "turnaround": 14,
+          "waiting": 11,
+          "response": 6
+        }
+      ],
+      "avg": {
+        "turnaround": 19.6,
+        "waiting": 13.8,
+        "response": 2.8
+      },
+      "cpu_util": 100.0,
+      "throughput": 0.172,
+      "context_switches": 14
+    }
+  ],
+  "memory": {
+    "paging": [
+      {
+        "algo": "FIFO",
+        "frames": 3,
+        "faults": 15,
+        "hit_ratio": 25.0,
+        "trace": [
+          [
+            7,
+            [
+              7
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              7,
+              0
+            ],
+            "FAULT"
+          ],
+          [
+            1,
+            [
+              7,
+              0,
+              1
+            ],
+            "FAULT"
+          ],
+          [
+            2,
+            [
+              0,
+              1,
+              2
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              0,
+              1,
+              2
+            ],
+            "HIT"
+          ],
+          [
+            3,
+            [
+              1,
+              2,
+              3
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              2,
+              3,
+              0
+            ],
+            "FAULT"
+          ],
+          [
+            4,
+            [
+              3,
+              0,
+              4
+            ],
+            "FAULT"
+          ],
+          [
+            2,
+            [
+              0,
+              4,
+              2
+            ],
+            "FAULT"
+          ],
+          [
+            3,
+            [
+              4,
+              2,
+              3
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              2,
+              3,
+              0
+            ],
+            "FAULT"
+          ],
+          [
+            3,
+            [
+              2,
+              3,
+              0
+            ],
+            "HIT"
+          ],
+          [
+            2,
+            [
+              2,
+              3,
+              0
+            ],
+            "HIT"
+          ],
+          [
+            1,
+            [
+              3,
+              0,
+              1
+            ],
+            "FAULT"
+          ],
+          [
+            2,
+            [
+              0,
+              1,
+              2
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              0,
+              1,
+              2
+            ],
+            "HIT"
+          ],
+          [
+            1,
+            [
+              0,
+              1,
+              2
+            ],
+            "HIT"
+          ],
+          [
+            7,
+            [
+              1,
+              2,
+              7
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              2,
+              7,
+              0
+            ],
+            "FAULT"
+          ],
+          [
+            1,
+            [
+              7,
+              0,
+              1
+            ],
+            "FAULT"
+          ]
+        ]
+      },
+      {
+        "algo": "LRU",
+        "frames": 3,
+        "faults": 12,
+        "hit_ratio": 40.0,
+        "trace": [
+          [
+            7,
+            [
+              7
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              7,
+              0
+            ],
+            "FAULT"
+          ],
+          [
+            1,
+            [
+              7,
+              0,
+              1
+            ],
+            "FAULT"
+          ],
+          [
+            2,
+            [
+              0,
+              1,
+              2
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              0,
+              1,
+              2
+            ],
+            "HIT"
+          ],
+          [
+            3,
+            [
+              0,
+              2,
+              3
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              0,
+              2,
+              3
+            ],
+            "HIT"
+          ],
+          [
+            4,
+            [
+              0,
+              3,
+              4
+            ],
+            "FAULT"
+          ],
+          [
+            2,
+            [
+              0,
+              4,
+              2
+            ],
+            "FAULT"
+          ],
+          [
+            3,
+            [
+              4,
+              2,
+              3
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              2,
+              3,
+              0
+            ],
+            "FAULT"
+          ],
+          [
+            3,
+            [
+              2,
+              3,
+              0
+            ],
+            "HIT"
+          ],
+          [
+            2,
+            [
+              2,
+              3,
+              0
+            ],
+            "HIT"
+          ],
+          [
+            1,
+            [
+              2,
+              3,
+              1
+            ],
+            "FAULT"
+          ],
+          [
+            2,
+            [
+              2,
+              3,
+              1
+            ],
+            "HIT"
+          ],
+          [
+            0,
+            [
+              2,
+              1,
+              0
+            ],
+            "FAULT"
+          ],
+          [
+            1,
+            [
+              2,
+              1,
+              0
+            ],
+            "HIT"
+          ],
+          [
+            7,
+            [
+              1,
+              0,
+              7
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              1,
+              0,
+              7
+            ],
+            "HIT"
+          ],
+          [
+            1,
+            [
+              1,
+              0,
+              7
+            ],
+            "HIT"
+          ]
+        ]
+      },
+      {
+        "algo": "OPT",
+        "frames": 3,
+        "faults": 9,
+        "hit_ratio": 55.0,
+        "trace": [
+          [
+            7,
+            [
+              7
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              7,
+              0
+            ],
+            "FAULT"
+          ],
+          [
+            1,
+            [
+              7,
+              0,
+              1
+            ],
+            "FAULT"
+          ],
+          [
+            2,
+            [
+              0,
+              1,
+              2
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              0,
+              1,
+              2
+            ],
+            "HIT"
+          ],
+          [
+            3,
+            [
+              0,
+              2,
+              3
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              0,
+              2,
+              3
+            ],
+            "HIT"
+          ],
+          [
+            4,
+            [
+              2,
+              3,
+              4
+            ],
+            "FAULT"
+          ],
+          [
+            2,
+            [
+              2,
+              3,
+              4
+            ],
+            "HIT"
+          ],
+          [
+            3,
+            [
+              2,
+              3,
+              4
+            ],
+            "HIT"
+          ],
+          [
+            0,
+            [
+              2,
+              3,
+              0
+            ],
+            "FAULT"
+          ],
+          [
+            3,
+            [
+              2,
+              3,
+              0
+            ],
+            "HIT"
+          ],
+          [
+            2,
+            [
+              2,
+              3,
+              0
+            ],
+            "HIT"
+          ],
+          [
+            1,
+            [
+              2,
+              0,
+              1
+            ],
+            "FAULT"
+          ],
+          [
+            2,
+            [
+              2,
+              0,
+              1
+            ],
+            "HIT"
+          ],
+          [
+            0,
+            [
+              2,
+              0,
+              1
+            ],
+            "HIT"
+          ],
+          [
+            1,
+            [
+              2,
+              0,
+              1
+            ],
+            "HIT"
+          ],
+          [
+            7,
+            [
+              0,
+              1,
+              7
+            ],
+            "FAULT"
+          ],
+          [
+            0,
+            [
+              0,
+              1,
+              7
+            ],
+            "HIT"
+          ],
+          [
+            1,
+            [
+              0,
+              1,
+              7
+            ],
+            "HIT"
+          ]
+        ]
+      }
+    ],
+    "alloc": [
+      {
+        "algo": "FIRST",
+        "placed": [
+          [
+            212,
+            1
+          ],
+          [
+            417,
+            4
+          ],
+          [
+            112,
+            1
+          ],
+          [
+            426,
+            null
+          ]
+        ],
+        "free_after": [
+          100,
+          176,
+          200,
+          300,
+          183
+        ],
+        "unallocated": [
+          426
+        ],
+        "ext_fragmentation": 959,
+        "utilisation": 43.6
+      },
+      {
+        "algo": "BEST",
+        "placed": [
+          [
+            212,
+            3
+          ],
+          [
+            417,
+            1
+          ],
+          [
+            112,
+            2
+          ],
+          [
+            426,
+            4
+          ]
+        ],
+        "free_after": [
+          100,
+          83,
+          88,
+          88,
+          174
+        ],
+        "unallocated": [],
+        "ext_fragmentation": 533,
+        "utilisation": 68.6
+      },
+      {
+        "algo": "WORST",
+        "placed": [
+          [
+            212,
+            4
+          ],
+          [
+            417,
+            1
+          ],
+          [
+            112,
+            4
+          ],
+          [
+            426,
+            null
+          ]
+        ],
+        "free_after": [
+          100,
+          83,
+          200,
+          300,
+          276
+        ],
+        "unallocated": [
+          426
+        ],
+        "ext_fragmentation": 959,
+        "utilisation": 43.6
+      }
+    ],
+    "belady": {
+      "FIFO": [
+        12,
+        12,
+        9,
+        10,
+        5,
+        5,
+        5
+      ],
+      "LRU": [
+        12,
+        12,
+        10,
+        8,
+        5,
+        5,
+        5
+      ]
+    }
+  },
+  "deadlock": {
+    "safety": {
+      "safe": true,
+      "sequence": [
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "need": [
+        [
+          7,
+          4,
+          3
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          4,
+          3,
+          1
+        ]
+      ],
+      "deadlocked": []
+    },
+    "request": {
+      "granted": true,
+      "sequence": [
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "reason": "safe state preserved"
+    }
+  },
+  "storage": [
+    {
+      "algo": "FCFS",
+      "order": [
+        98,
+        183,
+        37,
+        122,
+        14,
+        124,
+        65,
+        67
+      ],
+      "total_movement": 640,
+      "avg_seek": 80.0
+    },
+    {
+      "algo": "SSTF",
+      "order": [
+        65,
+        67,
+        37,
+        14,
+        98,
+        122,
+        124,
+        183
+      ],
+      "total_movement": 236,
+      "avg_seek": 29.5
+    },
+    {
+      "algo": "SCAN",
+      "order": [
+        65,
+        67,
+        98,
+        122,
+        124,
+        183,
+        199,
+        37,
+        14
+      ],
+      "total_movement": 331,
+      "avg_seek": 41.38
+    },
+    {
+      "algo": "CSCAN",
+      "order": [
+        65,
+        67,
+        98,
+        122,
+        124,
+        183,
+        199,
+        0,
+        14,
+        37
+      ],
+      "total_movement": 382,
+      "avg_seek": 47.75
+    },
+    {
+      "algo": "LOOK",
+      "order": [
+        65,
+        67,
+        98,
+        122,
+        124,
+        183,
+        37,
+        14
+      ],
+      "total_movement": 299,
+      "avg_seek": 37.38
+    }
+  ],
+  "host": {
+    "error": "Command '['bash', 'C:/Users/Lenovo/Downloads/os-sim/scripts/sysinfo.sh']' returned non-zero exit status 1."
+  }
+}

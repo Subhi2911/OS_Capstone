@@ -1,0 +1,20 @@
+$ python3 -m osim --all --input missing.json
+[error] input file not found: missing.json
+exit=2
+
+$ printf "7
+1 2 3
+0
+FIFO
+0
+" | python3 -m osim
+Choice: Reference string (space separated): Frames: Algorithm FIFO/LRU/OPT: [input error] frames must be >= 1, got 0
+Choice: 
+
+$ tail logs/activity.log
+2026-11-12 13:42:51,441 [INFO] session start
+2026-11-12 13:42:51,441 [ERROR] input file not found: missing.json
+2026-11-12 13:42:51,879 [INFO] session start
+2026-11-12 13:42:51,879 [INFO] loaded input /home/claude/os-sim/data/sample_input.json
+2026-11-12 13:42:51,879 [WARNING] input error: frames must be >= 1, got 0
+2026-11-12 13:42:51,879 [INFO] session end

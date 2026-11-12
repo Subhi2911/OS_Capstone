@@ -1,0 +1,35 @@
+test_alloc_gt_max (test_osim.Dead.test_alloc_gt_max) ... ok
+test_exceeds_max (test_osim.Dead.test_exceeds_max) ... ok
+test_ragged (test_osim.Dead.test_ragged) ... ok
+test_request_granted (test_osim.Dead.test_request_granted) ... ok
+test_request_unsafe (test_osim.Dead.test_request_unsafe) ... ok
+test_safe (test_osim.Dead.test_safe) ... ok
+test_unsafe_detected (test_osim.Dead.test_unsafe_detected) ... ok
+test_bad_dir (test_osim.Disk.test_bad_dir) ... ok
+test_out_of_range (test_osim.Disk.test_out_of_range) ... ok
+test_single (test_osim.Disk.test_single) ... ok
+test_totals (test_osim.Disk.test_totals) ... ok
+test_bash_bridge (test_osim.Integration.test_bash_bridge) ... ok
+test_cli_bad_input (test_osim.Integration.test_cli_bad_input) ... ok
+test_cli_batch (test_osim.Integration.test_cli_batch) ... ok
+test_missing_file (test_osim.Integration.test_missing_file) ... ok
+test_belady (test_osim.Mem.test_belady) ... ok
+test_fit (test_osim.Mem.test_fit) ... ok
+test_negative_page (test_osim.Mem.test_negative_page) ... ok
+test_one_frame_all_distinct (test_osim.Mem.test_one_frame_all_distinct) ... ok
+test_textbook_faults (test_osim.Mem.test_textbook_faults) ... ok
+test_too_big (test_osim.Mem.test_too_big) ... ok
+test_zero_frames (test_osim.Mem.test_zero_frames) ... ok
+test_all_algos_finish (test_osim.Sched.test_all_algos_finish) ... ok
+test_bad_quantum (test_osim.Sched.test_bad_quantum) ... ok
+test_duplicate_pid (test_osim.Sched.test_duplicate_pid) ... ok
+test_empty (test_osim.Sched.test_empty) ... ok
+test_fcfs_known (test_osim.Sched.test_fcfs_known) ... ok
+test_idle_gap (test_osim.Sched.test_idle_gap) ... ok
+test_invalid_burst (test_osim.Sched.test_invalid_burst) ... ok
+test_srtf_not_worse_than_fcfs (test_osim.Sched.test_srtf_not_worse_than_fcfs) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 1.571s
+
+OK
