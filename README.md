@@ -38,10 +38,13 @@ Every action and error goes to `logs/activity.log`.
 ## Deliverables map
 source `osim/`, `scripts/` | sample input `data/` | traces `outputs/sample_output_trace.txt`, `error_handling_trace.txt`,
 `test_results.txt` | charts `outputs/*.png` | screenshots `screenshots/` | report `REPORT.md` | tests `tests/`.
-Note: screenshots are rendered from real terminal output; replace with live captures of `./run.sh` if your instructor requires.
+
 
 ## Windows / Git Bash troubleshooting
 - Open Git Bash first, `cd` into the folder, then run `bash run.sh demo` (double-clicking closes the window on any error).
 - "bad interpreter" / `\r` errors: convert line endings: `sed -i 's/\r$//' run.sh scripts/sysinfo.sh`
 - "Python not found": install Python 3 from python.org with "Add to PATH"; the script tries python3, python, py.
 - Option 5 (host snapshot) shows `n/a` for memory/load on Git Bash because it has no `/proc`; it is full on Linux/WSL.
+
+Submiited by Subhasmita Mishra
+Roll Number: 2401360011
