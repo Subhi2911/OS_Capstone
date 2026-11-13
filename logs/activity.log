@@ -521,3 +521,264 @@
 2026-11-12 21:12:14,374 [INFO] loaded input C:/Users/Lenovo/Downloads/os-sim/data/sample_input.json
 2026-11-12 21:12:22,559 [INFO] menu choice 5
 2026-11-12 21:12:23,804 [INFO] host snapshot ok
+2026-11-12 21:15:31,407 [INFO] session start
+2026-11-12 21:15:31,407 [INFO] loaded input C:/Users/Lenovo/Downloads/os-sim/data/sample_input.json
+2026-11-12 21:38:57,756 [INFO] session start
+2026-11-12 21:38:57,757 [INFO] loaded input C:/Users/Lenovo/Downloads/os-sim/data/sample_input.json
+2026-11-12 21:39:03,323 [INFO] menu choice 1
+2026-11-12 21:39:03,324 [INFO] scheduler FCFS avg={'turnaround': 15.6, 'waiting': 9.8, 'response': 9.8}
+2026-11-12 21:39:03,324 [INFO] scheduler SJF avg={'turnaround': 13.2, 'waiting': 7.4, 'response': 7.4}
+2026-11-12 21:39:03,324 [INFO] scheduler SRTF avg={'turnaround': 12.2, 'waiting': 6.4, 'response': 4.0}
+2026-11-12 21:39:03,325 [INFO] scheduler PRIORITY avg={'turnaround': 13.2, 'waiting': 7.4, 'response': 7.4}
+2026-11-12 21:39:03,325 [INFO] scheduler RR avg={'turnaround': 19.6, 'waiting': 13.8, 'response': 2.8}
+2026-11-12 21:39:03,908 [INFO] chart saved gantt.png
+2026-11-12 21:39:04,125 [INFO] chart saved scheduling_comparison.png
+2026-11-12 21:40:39,596 [INFO] menu choice 6
+2026-11-12 21:40:39,597 [INFO] scheduler FCFS avg={'turnaround': 15.6, 'waiting': 9.8, 'response': 9.8}
+2026-11-12 21:40:39,598 [INFO] scheduler SJF avg={'turnaround': 13.2, 'waiting': 7.4, 'response': 7.4}
+2026-11-12 21:40:39,599 [INFO] scheduler SRTF avg={'turnaround': 12.2, 'waiting': 6.4, 'response': 4.0}
+2026-11-12 21:40:39,600 [INFO] scheduler PRIORITY avg={'turnaround': 13.2, 'waiting': 7.4, 'response': 7.4}
+2026-11-12 21:40:39,601 [INFO] scheduler RR avg={'turnaround': 19.6, 'waiting': 13.8, 'response': 2.8}
+2026-11-12 21:40:40,007 [INFO] chart saved gantt.png
+2026-11-12 21:40:40,228 [INFO] chart saved scheduling_comparison.png
+2026-11-12 21:40:40,228 [INFO] page FIFO frames=3 faults=15
+2026-11-12 21:40:40,228 [INFO] page LRU frames=3 faults=12
+2026-11-12 21:40:40,229 [INFO] page OPT frames=3 faults=9
+2026-11-12 21:40:40,239 [INFO] page FIFO frames=1 faults=20
+2026-11-12 21:40:40,239 [INFO] page FIFO frames=2 faults=15
+2026-11-12 21:40:40,239 [INFO] page FIFO frames=3 faults=15
+2026-11-12 21:40:40,239 [INFO] page FIFO frames=4 faults=10
+2026-11-12 21:40:40,239 [INFO] page FIFO frames=5 faults=9
+2026-11-12 21:40:40,239 [INFO] page FIFO frames=6 faults=6
+2026-11-12 21:40:40,240 [INFO] page FIFO frames=7 faults=6
+2026-11-12 21:40:40,240 [INFO] page LRU frames=1 faults=20
+2026-11-12 21:40:40,240 [INFO] page LRU frames=2 faults=17
+2026-11-12 21:40:40,240 [INFO] page LRU frames=3 faults=12
+2026-11-12 21:40:40,240 [INFO] page LRU frames=4 faults=8
+2026-11-12 21:40:40,240 [INFO] page LRU frames=5 faults=7
+2026-11-12 21:40:40,240 [INFO] page LRU frames=6 faults=6
+2026-11-12 21:40:40,240 [INFO] page LRU frames=7 faults=6
+2026-11-12 21:40:40,240 [INFO] page OPT frames=1 faults=20
+2026-11-12 21:40:40,241 [INFO] page OPT frames=2 faults=13
+2026-11-12 21:40:40,241 [INFO] page OPT frames=3 faults=9
+2026-11-12 21:40:40,241 [INFO] page OPT frames=4 faults=8
+2026-11-12 21:40:40,241 [INFO] page OPT frames=5 faults=7
+2026-11-12 21:40:40,241 [INFO] page OPT frames=6 faults=6
+2026-11-12 21:40:40,241 [INFO] page OPT frames=7 faults=6
+2026-11-12 21:40:40,537 [INFO] chart saved page_faults.png
+2026-11-12 21:40:40,537 [INFO] page FIFO frames=1 faults=12
+2026-11-12 21:40:40,537 [INFO] page FIFO frames=2 faults=12
+2026-11-12 21:40:40,537 [INFO] page FIFO frames=3 faults=9
+2026-11-12 21:40:40,537 [INFO] page FIFO frames=4 faults=10
+2026-11-12 21:40:40,537 [INFO] page FIFO frames=5 faults=5
+2026-11-12 21:40:40,537 [INFO] page FIFO frames=6 faults=5
+2026-11-12 21:40:40,538 [INFO] page FIFO frames=7 faults=5
+2026-11-12 21:40:40,538 [INFO] page LRU frames=1 faults=12
+2026-11-12 21:40:40,538 [INFO] page LRU frames=2 faults=12
+2026-11-12 21:40:40,538 [INFO] page LRU frames=3 faults=10
+2026-11-12 21:40:40,538 [INFO] page LRU frames=4 faults=8
+2026-11-12 21:40:40,538 [INFO] page LRU frames=5 faults=5
+2026-11-12 21:40:40,538 [INFO] page LRU frames=6 faults=5
+2026-11-12 21:40:40,539 [INFO] page LRU frames=7 faults=5
+2026-11-12 21:40:40,744 [INFO] chart saved belady.png
+2026-11-12 21:40:40,745 [INFO] alloc FIRST unallocated=[426]
+2026-11-12 21:40:40,745 [INFO] alloc BEST unallocated=[]
+2026-11-12 21:40:40,745 [INFO] alloc WORST unallocated=[426]
+2026-11-12 21:40:40,893 [INFO] chart saved allocation.png
+2026-11-12 21:40:40,894 [INFO] banker safe=True seq=[1, 3, 4, 0, 2]
+2026-11-12 21:40:40,894 [INFO] banker safe=True seq=[1, 3, 4, 0, 2]
+2026-11-12 21:40:40,895 [INFO] disk FCFS total=640
+2026-11-12 21:40:40,895 [INFO] disk SSTF total=236
+2026-11-12 21:40:40,895 [INFO] disk SCAN total=331
+2026-11-12 21:40:40,895 [INFO] disk CSCAN total=382
+2026-11-12 21:40:40,895 [INFO] disk LOOK total=299
+2026-11-12 21:40:41,071 [INFO] chart saved disk_seek.png
+2026-11-12 21:40:42,459 [INFO] host snapshot ok
+2026-11-13 09:28:34,866 [INFO] session start
+2026-11-13 09:28:34,867 [INFO] loaded input C:/Users/Lenovo/Downloads/os-sim/data/sample_input.json
+2026-11-13 09:28:45,412 [INFO] menu choice 6
+2026-11-13 09:28:45,413 [INFO] scheduler FCFS avg={'turnaround': 15.6, 'waiting': 9.8, 'response': 9.8}
+2026-11-13 09:28:45,413 [INFO] scheduler SJF avg={'turnaround': 13.2, 'waiting': 7.4, 'response': 7.4}
+2026-11-13 09:28:45,413 [INFO] scheduler SRTF avg={'turnaround': 12.2, 'waiting': 6.4, 'response': 4.0}
+2026-11-13 09:28:45,413 [INFO] scheduler PRIORITY avg={'turnaround': 13.2, 'waiting': 7.4, 'response': 7.4}
+2026-11-13 09:28:45,413 [INFO] scheduler RR avg={'turnaround': 19.6, 'waiting': 13.8, 'response': 2.8}
+2026-11-13 09:28:46,675 [INFO] chart saved gantt.png
+2026-11-13 09:28:47,185 [INFO] chart saved scheduling_comparison.png
+2026-11-13 09:28:47,186 [INFO] page FIFO frames=3 faults=15
+2026-11-13 09:28:47,186 [INFO] page LRU frames=3 faults=12
+2026-11-13 09:28:47,186 [INFO] page OPT frames=3 faults=9
+2026-11-13 09:28:47,195 [INFO] page FIFO frames=1 faults=20
+2026-11-13 09:28:47,195 [INFO] page FIFO frames=2 faults=15
+2026-11-13 09:28:47,195 [INFO] page FIFO frames=3 faults=15
+2026-11-13 09:28:47,195 [INFO] page FIFO frames=4 faults=10
+2026-11-13 09:28:47,196 [INFO] page FIFO frames=5 faults=9
+2026-11-13 09:28:47,196 [INFO] page FIFO frames=6 faults=6
+2026-11-13 09:28:47,196 [INFO] page FIFO frames=7 faults=6
+2026-11-13 09:28:47,196 [INFO] page LRU frames=1 faults=20
+2026-11-13 09:28:47,196 [INFO] page LRU frames=2 faults=17
+2026-11-13 09:28:47,196 [INFO] page LRU frames=3 faults=12
+2026-11-13 09:28:47,197 [INFO] page LRU frames=4 faults=8
+2026-11-13 09:28:47,197 [INFO] page LRU frames=5 faults=7
+2026-11-13 09:28:47,197 [INFO] page LRU frames=6 faults=6
+2026-11-13 09:28:47,197 [INFO] page LRU frames=7 faults=6
+2026-11-13 09:28:47,197 [INFO] page OPT frames=1 faults=20
+2026-11-13 09:28:47,197 [INFO] page OPT frames=2 faults=13
+2026-11-13 09:28:47,197 [INFO] page OPT frames=3 faults=9
+2026-11-13 09:28:47,197 [INFO] page OPT frames=4 faults=8
+2026-11-13 09:28:47,197 [INFO] page OPT frames=5 faults=7
+2026-11-13 09:28:47,198 [INFO] page OPT frames=6 faults=6
+2026-11-13 09:28:47,198 [INFO] page OPT frames=7 faults=6
+2026-11-13 09:28:47,559 [INFO] chart saved page_faults.png
+2026-11-13 09:28:47,559 [INFO] page FIFO frames=1 faults=12
+2026-11-13 09:28:47,559 [INFO] page FIFO frames=2 faults=12
+2026-11-13 09:28:47,560 [INFO] page FIFO frames=3 faults=9
+2026-11-13 09:28:47,560 [INFO] page FIFO frames=4 faults=10
+2026-11-13 09:28:47,560 [INFO] page FIFO frames=5 faults=5
+2026-11-13 09:28:47,560 [INFO] page FIFO frames=6 faults=5
+2026-11-13 09:28:47,561 [INFO] page FIFO frames=7 faults=5
+2026-11-13 09:28:47,561 [INFO] page LRU frames=1 faults=12
+2026-11-13 09:28:47,561 [INFO] page LRU frames=2 faults=12
+2026-11-13 09:28:47,561 [INFO] page LRU frames=3 faults=10
+2026-11-13 09:28:47,561 [INFO] page LRU frames=4 faults=8
+2026-11-13 09:28:47,561 [INFO] page LRU frames=5 faults=5
+2026-11-13 09:28:47,562 [INFO] page LRU frames=6 faults=5
+2026-11-13 09:28:47,562 [INFO] page LRU frames=7 faults=5
+2026-11-13 09:28:48,290 [INFO] chart saved belady.png
+2026-11-13 09:28:48,292 [INFO] alloc FIRST unallocated=[426]
+2026-11-13 09:28:48,292 [INFO] alloc BEST unallocated=[]
+2026-11-13 09:28:48,292 [INFO] alloc WORST unallocated=[426]
+2026-11-13 09:28:49,071 [INFO] chart saved allocation.png
+2026-11-13 09:28:49,139 [INFO] banker safe=True seq=[1, 3, 4, 0, 2]
+2026-11-13 09:28:49,177 [INFO] banker safe=True seq=[1, 3, 4, 0, 2]
+2026-11-13 09:28:49,193 [INFO] disk FCFS total=640
+2026-11-13 09:28:49,193 [INFO] disk SSTF total=236
+2026-11-13 09:28:49,193 [INFO] disk SCAN total=331
+2026-11-13 09:28:49,193 [INFO] disk CSCAN total=382
+2026-11-13 09:28:49,193 [INFO] disk LOOK total=299
+2026-11-13 09:28:49,521 [INFO] chart saved disk_seek.png
+2026-11-13 09:28:53,312 [INFO] host snapshot ok
+2026-11-13 09:30:00,125 [INFO] session start
+2026-11-13 09:30:00,125 [INFO] loaded input C:/Users/Lenovo/Downloads/os-sim/data/sample_input.json
+2026-11-13 09:30:05,424 [INFO] menu choice 6
+2026-11-13 09:30:05,425 [INFO] scheduler FCFS avg={'turnaround': 14.8, 'waiting': 9.0, 'response': 9.0}
+2026-11-13 09:30:05,425 [INFO] scheduler SJF avg={'turnaround': 12.2, 'waiting': 6.4, 'response': 6.4}
+2026-11-13 09:30:05,425 [INFO] scheduler SRTF avg={'turnaround': 11.8, 'waiting': 6.0, 'response': 5.4}
+2026-11-13 09:30:05,426 [INFO] scheduler PRIORITY avg={'turnaround': 12.2, 'waiting': 6.4, 'response': 6.4}
+2026-11-13 09:30:05,426 [INFO] scheduler RR avg={'turnaround': 18.4, 'waiting': 12.6, 'response': 2.4}
+2026-11-13 09:30:06,033 [INFO] chart saved gantt.png
+2026-11-13 09:30:06,278 [INFO] chart saved scheduling_comparison.png
+2026-11-13 09:30:06,279 [INFO] page FIFO frames=3 faults=15
+2026-11-13 09:30:06,279 [INFO] page LRU frames=3 faults=12
+2026-11-13 09:30:06,279 [INFO] page OPT frames=3 faults=9
+2026-11-13 09:30:06,288 [INFO] page FIFO frames=1 faults=20
+2026-11-13 09:30:06,288 [INFO] page FIFO frames=2 faults=15
+2026-11-13 09:30:06,288 [INFO] page FIFO frames=3 faults=15
+2026-11-13 09:30:06,288 [INFO] page FIFO frames=4 faults=10
+2026-11-13 09:30:06,288 [INFO] page FIFO frames=5 faults=9
+2026-11-13 09:30:06,288 [INFO] page FIFO frames=6 faults=6
+2026-11-13 09:30:06,288 [INFO] page FIFO frames=7 faults=6
+2026-11-13 09:30:06,289 [INFO] page LRU frames=1 faults=20
+2026-11-13 09:30:06,289 [INFO] page LRU frames=2 faults=17
+2026-11-13 09:30:06,289 [INFO] page LRU frames=3 faults=12
+2026-11-13 09:30:06,289 [INFO] page LRU frames=4 faults=8
+2026-11-13 09:30:06,289 [INFO] page LRU frames=5 faults=7
+2026-11-13 09:30:06,289 [INFO] page LRU frames=6 faults=6
+2026-11-13 09:30:06,289 [INFO] page LRU frames=7 faults=6
+2026-11-13 09:30:06,289 [INFO] page OPT frames=1 faults=20
+2026-11-13 09:30:06,289 [INFO] page OPT frames=2 faults=13
+2026-11-13 09:30:06,289 [INFO] page OPT frames=3 faults=9
+2026-11-13 09:30:06,290 [INFO] page OPT frames=4 faults=8
+2026-11-13 09:30:06,290 [INFO] page OPT frames=5 faults=7
+2026-11-13 09:30:06,290 [INFO] page OPT frames=6 faults=6
+2026-11-13 09:30:06,290 [INFO] page OPT frames=7 faults=6
+2026-11-13 09:30:06,547 [INFO] chart saved page_faults.png
+2026-11-13 09:30:06,548 [INFO] page FIFO frames=1 faults=12
+2026-11-13 09:30:06,548 [INFO] page FIFO frames=2 faults=12
+2026-11-13 09:30:06,548 [INFO] page FIFO frames=3 faults=9
+2026-11-13 09:30:06,548 [INFO] page FIFO frames=4 faults=10
+2026-11-13 09:30:06,548 [INFO] page FIFO frames=5 faults=5
+2026-11-13 09:30:06,548 [INFO] page FIFO frames=6 faults=5
+2026-11-13 09:30:06,548 [INFO] page FIFO frames=7 faults=5
+2026-11-13 09:30:06,548 [INFO] page LRU frames=1 faults=12
+2026-11-13 09:30:06,549 [INFO] page LRU frames=2 faults=12
+2026-11-13 09:30:06,549 [INFO] page LRU frames=3 faults=10
+2026-11-13 09:30:06,549 [INFO] page LRU frames=4 faults=8
+2026-11-13 09:30:06,549 [INFO] page LRU frames=5 faults=5
+2026-11-13 09:30:06,549 [INFO] page LRU frames=6 faults=5
+2026-11-13 09:30:06,549 [INFO] page LRU frames=7 faults=5
+2026-11-13 09:30:06,763 [INFO] chart saved belady.png
+2026-11-13 09:30:06,765 [INFO] alloc FIRST unallocated=[426]
+2026-11-13 09:30:06,765 [INFO] alloc BEST unallocated=[]
+2026-11-13 09:30:06,765 [INFO] alloc WORST unallocated=[426]
+2026-11-13 09:30:06,928 [INFO] chart saved allocation.png
+2026-11-13 09:30:06,929 [INFO] banker safe=True seq=[1, 3, 4, 0, 2]
+2026-11-13 09:30:06,930 [INFO] banker safe=True seq=[1, 3, 4, 0, 2]
+2026-11-13 09:30:06,931 [INFO] disk FCFS total=640
+2026-11-13 09:30:06,931 [INFO] disk SSTF total=236
+2026-11-13 09:30:06,931 [INFO] disk SCAN total=331
+2026-11-13 09:30:06,931 [INFO] disk CSCAN total=382
+2026-11-13 09:30:06,931 [INFO] disk LOOK total=299
+2026-11-13 09:30:07,141 [INFO] chart saved disk_seek.png
+2026-11-13 09:30:08,887 [INFO] host snapshot ok
+2026-11-13 09:30:34,764 [INFO] menu choice 6
+2026-11-13 09:30:34,765 [INFO] scheduler FCFS avg={'turnaround': 14.8, 'waiting': 9.0, 'response': 9.0}
+2026-11-13 09:30:34,765 [INFO] scheduler SJF avg={'turnaround': 12.2, 'waiting': 6.4, 'response': 6.4}
+2026-11-13 09:30:34,765 [INFO] scheduler SRTF avg={'turnaround': 11.8, 'waiting': 6.0, 'response': 5.4}
+2026-11-13 09:30:34,766 [INFO] scheduler PRIORITY avg={'turnaround': 12.2, 'waiting': 6.4, 'response': 6.4}
+2026-11-13 09:30:34,766 [INFO] scheduler RR avg={'turnaround': 18.4, 'waiting': 12.6, 'response': 2.4}
+2026-11-13 09:30:35,351 [INFO] chart saved gantt.png
+2026-11-13 09:30:35,614 [INFO] chart saved scheduling_comparison.png
+2026-11-13 09:30:35,615 [INFO] page FIFO frames=3 faults=15
+2026-11-13 09:30:35,615 [INFO] page LRU frames=3 faults=12
+2026-11-13 09:30:35,615 [INFO] page OPT frames=3 faults=9
+2026-11-13 09:30:35,625 [INFO] page FIFO frames=1 faults=20
+2026-11-13 09:30:35,626 [INFO] page FIFO frames=2 faults=15
+2026-11-13 09:30:35,626 [INFO] page FIFO frames=3 faults=15
+2026-11-13 09:30:35,626 [INFO] page FIFO frames=4 faults=10
+2026-11-13 09:30:35,626 [INFO] page FIFO frames=5 faults=9
+2026-11-13 09:30:35,626 [INFO] page FIFO frames=6 faults=6
+2026-11-13 09:30:35,626 [INFO] page FIFO frames=7 faults=6
+2026-11-13 09:30:35,626 [INFO] page LRU frames=1 faults=20
+2026-11-13 09:30:35,626 [INFO] page LRU frames=2 faults=17
+2026-11-13 09:30:35,627 [INFO] page LRU frames=3 faults=12
+2026-11-13 09:30:35,627 [INFO] page LRU frames=4 faults=8
+2026-11-13 09:30:35,627 [INFO] page LRU frames=5 faults=7
+2026-11-13 09:30:35,627 [INFO] page LRU frames=6 faults=6
+2026-11-13 09:30:35,627 [INFO] page LRU frames=7 faults=6
+2026-11-13 09:30:35,627 [INFO] page OPT frames=1 faults=20
+2026-11-13 09:30:35,627 [INFO] page OPT frames=2 faults=13
+2026-11-13 09:30:35,627 [INFO] page OPT frames=3 faults=9
+2026-11-13 09:30:35,627 [INFO] page OPT frames=4 faults=8
+2026-11-13 09:30:35,627 [INFO] page OPT frames=5 faults=7
+2026-11-13 09:30:35,627 [INFO] page OPT frames=6 faults=6
+2026-11-13 09:30:35,628 [INFO] page OPT frames=7 faults=6
+2026-11-13 09:30:35,905 [INFO] chart saved page_faults.png
+2026-11-13 09:30:35,905 [INFO] page FIFO frames=1 faults=12
+2026-11-13 09:30:35,905 [INFO] page FIFO frames=2 faults=12
+2026-11-13 09:30:35,906 [INFO] page FIFO frames=3 faults=9
+2026-11-13 09:30:35,906 [INFO] page FIFO frames=4 faults=10
+2026-11-13 09:30:35,906 [INFO] page FIFO frames=5 faults=5
+2026-11-13 09:30:35,906 [INFO] page FIFO frames=6 faults=5
+2026-11-13 09:30:35,906 [INFO] page FIFO frames=7 faults=5
+2026-11-13 09:30:35,906 [INFO] page LRU frames=1 faults=12
+2026-11-13 09:30:35,906 [INFO] page LRU frames=2 faults=12
+2026-11-13 09:30:35,906 [INFO] page LRU frames=3 faults=10
+2026-11-13 09:30:35,906 [INFO] page LRU frames=4 faults=8
+2026-11-13 09:30:35,906 [INFO] page LRU frames=5 faults=5
+2026-11-13 09:30:35,906 [INFO] page LRU frames=6 faults=5
+2026-11-13 09:30:35,906 [INFO] page LRU frames=7 faults=5
+2026-11-13 09:30:36,177 [INFO] chart saved belady.png
+2026-11-13 09:30:36,178 [INFO] alloc FIRST unallocated=[426]
+2026-11-13 09:30:36,178 [INFO] alloc BEST unallocated=[]
+2026-11-13 09:30:36,179 [INFO] alloc WORST unallocated=[426]
+2026-11-13 09:30:36,380 [INFO] chart saved allocation.png
+2026-11-13 09:30:36,380 [INFO] banker safe=True seq=[1, 3, 4, 0, 2]
+2026-11-13 09:30:36,381 [INFO] banker safe=True seq=[1, 3, 4, 0, 2]
+2026-11-13 09:30:36,382 [INFO] disk FCFS total=640
+2026-11-13 09:30:36,382 [INFO] disk SSTF total=236
+2026-11-13 09:30:36,382 [INFO] disk SCAN total=331
+2026-11-13 09:30:36,382 [INFO] disk CSCAN total=382
+2026-11-13 09:30:36,382 [INFO] disk LOOK total=299
+2026-11-13 09:30:36,595 [INFO] chart saved disk_seek.png
+2026-11-13 09:30:38,396 [INFO] host snapshot ok
+2026-11-13 09:30:46,425 [INFO] session end

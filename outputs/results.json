@@ -1296,6 +1296,13 @@
     }
   ],
   "host": {
-    "error": "Command '['bash', 'C:/Users/Lenovo/Downloads/os-sim/scripts/sysinfo.sh']' returned non-zero exit status 1."
+    "hostname": "DESKTOP-NGVEETI",
+    "kernel": "MINGW64_NT-10.0-19045 3.6.3-7674c51e.x86_64",
+    "cpus": "4",
+    "mem_total_kb": "8235880",
+    "mem_avail_kb": "",
+    "load": "0.96 1.92 2.17",
+    "procs": "9",
+    "disk_root_use": "28693068"
   }
 }
